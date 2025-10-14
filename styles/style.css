@@ -12,6 +12,7 @@ header {
 }
 
 .list {
+  line-height: auto;
   display: flex;
   list-style: circle;
   gap: 30px;
@@ -38,12 +39,14 @@ header {
   font-style: normal;
   font-weight: lighter;
   color: black;
+  line-height: 25px;
   /* justify-self: end;
   margin: 95px 81px 100px 0px; */
   text-underline-offset: 4px;
 }
 
 #address_header {
+  font-size: 18px;
   margin: 95px 81px 100px 0px;
   justify-self: end;
 }
@@ -136,6 +139,7 @@ header {
 .lots__card-list {
   list-style: none;
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -229,8 +233,9 @@ header {
 .about-auc {
   display: flex;
   flex-direction: column;
-  margin-top: 120px;
-  margin-bottom: 180px;
+  /* margin-top: 120px; */
+  /* margin-bottom: 180px; */
+  padding: 0 24px 180px;
 }
 
 .about-auc-header {
@@ -240,9 +245,9 @@ header {
   align-items: center;
 }
 .logo-circle {
-display: flex;
-align-items: center;        /* Выравниваем по вертикали по центру */
-  justify-content: center; 
+  display: flex;
+  align-items: center; /* Выравниваем по вертикали по центру */
+  justify-content: center;
   background-color: #000;
   width: 240px;
   height: 240px;
@@ -254,12 +259,11 @@ align-items: center;        /* Выравниваем по вертикали п
   /* padding: 82px 46px;
 position: absolute;
 /* display: flex; */
-display: flex;              /* Превращаем контейнер в флексбокс */
-  align-items: center;        /* Выравниваем по вертикали по центру */
-  justify-content: center;   /* Выравниваем по горизонтали по центру */  
+  display: flex; /* Превращаем контейнер в флексбокс */
+  align-items: center; /* Выравниваем по вертикали по центру */
+  justify-content: center; /* Выравниваем по горизонтали по центру */
   height: 114px;
-  width: 148px; 
-  
+  width: 148px;
 }
 
 .about-auc-header span {
@@ -280,7 +284,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 50px;
+  padding-bottom: 82px;
 }
 
 .vertical-list {
@@ -295,10 +299,8 @@ footer {
 .vertical-list li:nth-child(3) {
   text-decoration: underline;
 }
-#address_footer{
+#address_footer {
   margin-left: 50px;
-
-
 }
 .icons {
   display: flex;
