@@ -6,12 +6,12 @@ header {
   height: 293px;
 }
 
-.header_menu {
+.menu-шапка {
   font-size: 18px;
   padding: 42px 0px 42px 0px;
 }
 
-.list {
+.список {
   line-height: auto;
   display: flex;
   list-style: circle;
@@ -22,51 +22,47 @@ header {
   text-underline-offset: 4px;
 }
 
-.list li:first-child {
+.список li:first-child {
   text-decoration: none;
   list-style: none;
 }
 
-.logo {
+.логотип {
   width: 148px;
   height: 105px;
 }
 
-.address {
-  /* max-width: 209px;
-  height: 98px; */
+.адрес {
   font-size: 18px;
   font-style: normal;
   font-weight: lighter;
   color: black;
   line-height: 25px;
-  /* justify-self: end;
-  margin: 95px 81px 100px 0px; */
   text-underline-offset: 4px;
 }
 
-#address_header {
+#адрес_шапка {
   font-size: 18px;
   margin: 95px 81px 100px 0px;
   justify-self: end;
 }
 
-.cover {
+.обложка {
   position: relative;
   background-image: url(/images/cover.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.overlay {
+.покрытие {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(0 0 0/ 0.6);
+  background-color: rgb(0 0 0 / 0.6);
   z-index: 1;
 }
 
-.cover__title {
+.обложка__заголовок {
   line-height: 70%;
   font-size: 100px;
   text-transform: uppercase;
@@ -75,23 +71,23 @@ header {
   padding: 165px 50px 207px 50px;
 }
 
-.aligned-text {
+.выравнивание-текста {
   display: block;
 }
 
-.text_start {
+.текст_слева {
   text-align: start;
 }
 
-.text_center {
+.текст_центр {
   text-align: center;
 }
 
-.text_right {
+.текст_справа {
   text-align: right;
 }
 
-.cover__description {
+.обложка__описание {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,17 +97,16 @@ header {
   z-index: 2;
 }
 
-.cover__description-text {
+.обложка__описание-текст {
   z-index: 2;
   color: white;
-  /* padding: 12px 107px 12px 0; */
 }
 
-.letter-spacing-extended {
+.увеличенный-пробел {
   word-spacing: 20px;
 }
 
-.bet-button {
+.кнопка-ставки {
   text-transform: uppercase;
   appearance: none;
   background-color: transparent;
@@ -122,11 +117,11 @@ header {
   z-index: 2;
 }
 
-.lots {
+.лоты {
   padding: 180px 24px 120px 24px;
 }
 
-.lots__heading {
+.лоты__заголовок {
   width: 121px;
   height: 47px;
   font-size: 40px;
@@ -136,7 +131,7 @@ header {
   text-transform: uppercase;
 }
 
-.lots__card-list {
+.лоты__список-карт {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -144,16 +139,16 @@ header {
   flex-wrap: wrap;
 }
 
-.lots__card-list-item {
+.лоты__элемент {
   flex-direction: column;
 }
 
-.card-link {
+.ссылка-карта {
   text-decoration: none;
   display: block;
 }
 
-.card {
+.карта {
   width: 334px;
   height: 596px;
   position: relative;
@@ -164,89 +159,86 @@ header {
   margin-bottom: 30px;
 }
 
-.card_type_film {
+.карта_фильм {
   background-image: url("/images/card-lot-01.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.card_type_book {
+.карта_книга {
   background-image: url("/images/card-lot-02.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.card_type_picture {
+.карта_картина {
   background-image: url("/images/card-lot-03.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.card__title {
+.карта__заголовок {
   margin: 48px 40px 0 48px;
-  width: auto;
-  height: auto;
   font-size: 22px;
   font-weight: bold;
   line-height: 120%;
   text-transform: uppercase;
   text-decoration: underline;
-
   z-index: 2;
 }
 
-.card__text {
+.карта__текст {
   font-size: 20px;
   line-height: 120%;
   z-index: 2;
 }
-.lots__look-more-link {
+
+.лоты__ещё {
   text-decoration: underline;
   color: black;
   font-size: 20px;
   margin-left: 40px;
 }
-ЫЫ
-#book_title {
+
+#заголовок_книги {
   width: 254px;
   height: 110px;
 }
 
-#first-lots {
+#первый-лот {
   width: 254px;
   height: 144px;
   margin: 0px 40px 48px 40px;
 }
 
-#sec-lots {
+#второй-лот {
   width: 254px;
   height: 360px;
   margin: 0px 40px 48px 40px;
 }
 
-#three-lots {
+#третий-лот {
   width: 254px;
   height: 264px;
   margin: 0px 40px 48px 40px;
 }
 
-.about-auc {
+.о-аукционе {
   display: flex;
   flex-direction: column;
-  /* margin-top: 120px; */
-  /* margin-bottom: 180px; */
   padding: 0 24px 180px;
 }
 
-.about-auc-header {
+.о-аукционе-заголовок {
   display: flex;
   gap: 20px;
   flex-direction: row;
   align-items: center;
 }
-.logo-circle {
+
+.логотип-круг {
   display: flex;
-  align-items: center; /* Выравниваем по вертикали по центру */
+  align-items: center;
   justify-content: center;
   background-color: #000;
   width: 240px;
@@ -255,24 +247,22 @@ header {
   margin: 35px 0 0 47px;
 }
 
-.logo-circle img {
-  /* padding: 82px 46px;
-position: absolute;
-/* display: flex; */
-  display: flex; /* Превращаем контейнер в флексбокс */
-  align-items: center; /* Выравниваем по вертикали по центру */
-  justify-content: center; /* Выравниваем по горизонтали по центру */
+.логотип-круг img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 114px;
   width: 148px;
 }
 
-.about-auc-header span {
+.о-аукционе__титул {
   margin: 35px 0 0 50px;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.about-auc p {
+
+.о-аукционе p {
   width: 688px;
   height: 126px;
   margin-left: 350px;
@@ -287,7 +277,7 @@ footer {
   padding-bottom: 82px;
 }
 
-.vertical-list {
+.вертикальный-список {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -295,15 +285,16 @@ footer {
   font-size: 18px;
 }
 
-.vertical-list li:nth-child(2),
-.vertical-list li:nth-child(3) {
+.вертикальный-список li:nth-child(2),
+.вертикальный-список li:nth-child(3) {
   text-decoration: underline;
 }
 
-#address_footer {
+#адрес_подвал {
   margin-left: 50px;
 }
-.icons {
+
+.иконки {
   display: flex;
   flex-direction: row;
   gap: 48px;
@@ -312,7 +303,7 @@ footer {
   margin-right: 50px;
 }
 
-.icons img {
+.иконки img {
   width: 48px;
   height: 48px;
 }
